@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Laravel
+frontend/vendor/
+frontend/node_modules/
+frontend/storage/*.key
+frontend/storage/logs/*.log
+frontend/storage/framework/cache/*
+frontend/storage/framework/sessions/*
+frontend/storage/framework/views/*
+frontend/bootstrap/cache/*.php
+
+# Env
+.env
+.env.local
+.env.telegram
+frontend/.env
+backend/.env
+
+# Backups
+*.sql
+backup_*.sql
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+pgdata/
